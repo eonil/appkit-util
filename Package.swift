@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .target(name: "AppKitUtil", dependencies: ["Tree2"]),
+        .target(name: "AppKitUtil", dependencies: []),
         .testTarget(name: "AppKitUtilTests", dependencies: ["AppKitUtil"]),
     ]
 )
